@@ -16,15 +16,18 @@
 * Добавить код mlflow, позволяющий мониторить ход выполнения конвейера, сохранять и анализировать полученных артифакты. 
 
 
-
 ### **Other**:
 * Python - 3.9.2
 * Git - git version 2.30.2
 
 ## Result
+Есть 2 файла с requirements.txt:
+* requirements.txt - полный пакет всех библиотек 
+* req.txt - ограниченный, только нужные
+  
 DAG
 ![1](https://github.com/Basserti/MLOPS_course_lab3/assets/51204419/daceebc3-9264-4f8e-ac0a-7ca8789c4eeb)
-Возникла проблема с API Google - был привышел лимит запросов.
+Возникла проблема с API Google - был превышал лимит запросов.
 ![2](https://github.com/Basserti/MLOPS_course_lab3/assets/51204419/6f61f6ed-c30b-40bb-a5ad-a5c3e72c5201)
 MLFlow - get_data
 ![3](https://github.com/Basserti/MLOPS_course_lab3/assets/51204419/3dec499d-f61b-44b4-972a-982a4f59a25e)
